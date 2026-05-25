@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TrueDipWidget</class>
+ <widget class="QWidget" name="TrueDipWidget">
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="title"><string>真倾角转视倾角计算</string></property>
+     <layout class="QFormLayout" name="formLayout">
+      <item row="0" column="0"><widget class="QLabel" name="label_1"><property name="text"><string>真倾角 (β):</string></property></widget></item>
+      <item row="0" column="1"><widget class="QLineEdit" name="input_true_dip"/></item>
+      <item row="1" column="0"><widget class="QLabel" name="label_2"><property name="text"><string>方位夹角 (θ):</string></property></widget></item>
+      <item row="1" column="1"><widget class="QLineEdit" name="input_theta"/></item>
+      <item row="2" column="0" colspan="2"><widget class="QPushButton" name="btn_calc"><property name="text"><string>计算视倾角</string></property></widget></item>
+      <item row="3" column="0"><widget class="QLabel" name="label_3"><property name="text"><string>视倾角 (α):</string></property></widget></item>
+      <item row="3" column="1"><widget class="QLineEdit" name="output_apparent_dip"><property name="readOnly"><bool>true</bool></property></widget></item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+</ui>
